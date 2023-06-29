@@ -2,7 +2,20 @@
 
 source: https://flask.palletsprojects.com/en/2.3.x/tutorial/
 
+## Local Server
+
 run `flask --app flaskr run --debug`
+
+## Tests
+
+```shell
+pytest
+```
+
+```shell
+coverage run -m pytest
+coverage report
+```
 
 ## Dependencies
 
